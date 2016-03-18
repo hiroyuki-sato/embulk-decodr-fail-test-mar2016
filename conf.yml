@@ -1,0 +1,34 @@
+in:
+  type: file
+  path_prefix: ./log/log
+  decoders:
+    - type: gzip
+  parser:
+    charset: UTF-8
+    newline: CRLF
+    type: jsonl
+    schema:
+    - {name: time, type: timestamp, time_format:  "%Y-%m-%d %H:%M:%S"}
+    - {name: param1, type: string}
+    - {name: param2, type: string}
+    - {name: param3, type: string}
+    - {name: param4, type: string}
+    - {name: param5, type: string}
+    - {name: param6, type: string}
+    - {name: param7, type: string}
+    - {name: param8, type: string}
+    - {name: param9, type: string}
+    - {name: param10, type: string}
+    - {name: param11, type: string}
+    - {name: param12, type: string}
+    - {name: param13, type: string}
+    - {name: param14, type: string}
+    - {name: param15, type: string}
+    - {name: param16, type: string}
+    - {name: param17, type: string}
+    - {name: param18, type: string}
+    - {name: param19, type: string}
+    - {name: param20, type: string}
+out:
+  type: "null"
+

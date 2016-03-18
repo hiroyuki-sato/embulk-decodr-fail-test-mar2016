@@ -1,12 +1,12 @@
 source 'https://rubygems.org/'
 gem 'embulk', '= 0.7.11'
 
-gem "embulk-decoder-commons-compress","= 0.3.3"
-gem "embulk-filter-column","= 0.3.1"
-gem "embulk-formatter-jsonl","= 0.1.4"
-gem "embulk-output-td","= 0.2.1,"
-gem "embulk-parser-json","= 0.0.1"
-gem "embulk-parser-jsonl","= 0.0.1"
+gem 'embulk-decoder-commons-compress','= 0.3.3'
+gem 'embulk-filter-column','= 0.3.1'
+gem 'embulk-formatter-jsonl','= 0.1.4'
+gem 'embulk-output-td','= 0.2.1'
+gem 'embulk-parser-json','= 0.0.1'
+gem 'embulk-parser-jsonl','= 0.0.1'
 
 
 

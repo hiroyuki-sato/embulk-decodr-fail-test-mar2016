@@ -95,3 +95,75 @@ param18 (   string) : 1FnfKrAQ9AjzqdknumuESHBcYbnGzKGYut
 param19 (   string) : 14RwDrn1ZgXLPR77Fw1vwe5krhE691Kfun
 param20 (   string) : 1DUhzhmDdhRCcB8o9FWEJ5UBXSSRxgZD2j
 ```
+
+## 検証環境
+
+* OS: CentOS7
+* Java: OpenJDK 1.8
+* サンプルデータ:
+  * 1ファイル: 100万行
+  * ファイル数: 151個
+  * 総容量: 34GB
+
+
+```
+2016-03-21 02:34:27.395 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 04:54:51.551 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 07:14:20.422 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 09:35:28.418 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 11:55:23.673 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 14:14:17.245 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 16:34:53.242 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 18:49:57.327 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 21:03:18.645 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-21 23:24:07.235 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 01:41:57.931 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 03:58:40.669 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 06:17:49.336 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 08:32:40.315 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 10:51:22.567 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 13:04:16.918 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 15:22:17.743 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 17:34:38.313 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 20:00:02.031 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+--
+2016-03-22 22:22:12.632 +0900 [INFO] (main): Next config diff: {"in":{"last_path":"log/log.txt.gz"},"out":{}}
+** End: 0 **
+```
